@@ -36,6 +36,7 @@ select{
 .btn {
     width: 100%;
     border-radius: 20px;
+    color: rgb(126, 38, 3);
     padding: 6%;
     font-size: 1.3rem;
     background: linear-gradient(rgb(252, 19, 3), rgb(255, 123, 0), rgb(253, 210, 91));
@@ -48,6 +49,7 @@ select{
     background: linear-gradient(rgba(252, 19, 3, 0.9), rgba(255, 123, 0, 0.9), rgba(253, 210, 91, 0.9)); 
     size: 3rem;
     font-size: 1.5rem;/* Change background on hover */
+    font-weight: bold;
 }
 
 p{
