@@ -7,6 +7,7 @@ Conversion Rate Calculation: Calculate the change in conversion rates between tw
 Real-Time Updates: Display real-time currency conversion rates.
 
 Technologies Used
+
 HTML: For structuring the web page.
 CSS: For styling the user interface.
 JavaScript: For implementing the logic to fetch conversion rates and calculate the rate change.
