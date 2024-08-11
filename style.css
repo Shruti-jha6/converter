@@ -1,0 +1,40 @@
+*{
+    margin:2%;
+    padding: 2%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+    border-width: 5 rem;
+    border-color: black;
+    background: linear-gradient(rgb(241, 241, 3), rgb(241, 238, 57), rgb(231, 229, 109),rgb(243, 242, 200),rgb(241, 238, 57));
+}
+h2{
+    color: rgb(138, 5, 5);
+    font-size: 3rem;
+}
+i{
+    margin: 1.5rem;
+    font-size: 5em; /* Adjusts the icon size */
+    color: #500505; 
+}
+input{
+    border: none; /* Removes the border around the input */
+    outline: none; 
+    background-color: transparent; /* Makes the background transparent */
+    border-bottom: 2px solid #000;/* Removes the outline when the input is focused */
+}
+input::placeholder {
+    color: #b44302; 
+    font-size: 1.2rem;/* Optional: change the placeholder color */
+}
+select{
+    width: 90%;
+}
+.btn{
+    width: 100%;
+    border-radius: 20px;
+
+}
