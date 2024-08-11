@@ -32,6 +32,14 @@ input::placeholder {
 }
 select{
     width: 90%;
+    border: none; 
+    outline: none; 
+    background-color: rgb(250, 204, 120); /* Makes the background transparent */
+    border-bottom: 2px solid #9e0f0f;
+    border-radius: 2rem;
+    box-shadow: 0 1px 9px rgba(147, 21, 163, 0.5); /* Adjust values for shadow */
+
+
 }
 .btn {
     width: 100%;
@@ -42,7 +50,7 @@ select{
     background: linear-gradient(rgb(252, 19, 3), rgb(255, 123, 0), rgb(253, 210, 91));
     cursor: pointer;
     transition: background-image 0.3s; /* Smooth background transition */
-    box-shadow: 0 4px 12px rgba(116, 6, 6, 0.5); /* Adjust values for shadow */
+    box-shadow: 3px 7px 12px rgba(116, 6, 6, 0.5); /* Adjust values for shadow */
 }
 
 .btn:hover {
@@ -56,4 +64,10 @@ p{
     color: rgba(172, 11, 11, 0.932);
     font-weight: bold;
     font-size: 1.5rem;
+}
+.msg{
+    color: rgba(172, 11, 11, 0.932);
+    font-weight: bold;
+    font-size: 1rem;
+
 }
